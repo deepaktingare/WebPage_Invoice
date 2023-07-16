@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Om Cool Care Invoice</title>
+  </head>
+  <body>
+      <form>
+        <tb>
+            <main class="main">
+                <!-- header -->
+                <h1 style="text-align: center; margin-top: 10px">Invoice</h1>
+                <div class="header">
+                  <div>
+                    <p><b style="margin-bottom: 20px">Invoice No: </b><span id="invoiceNumber">1001</span></p>
+                  </div>
+                  <p><b style="margin-bottom: 20px">Date: </b> <span id="invoiceDate">16/07/2023</span></p>
+                </div>
+                <!--company info-->
+                <div class="companyInfo">
+                  <div>
+                    <h1 style="color: rgba(72, 78, 78, 0.534); margin-top: 10px; margin-bottom: 10px;">Om Cool Care</h1>
+                    <h6>Pimpri Chinchwad, Pune</h6>   
+                    <h5 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin-bottom: 10px;">
+                        <spane>&#9990</spane>  +91 8308152131 <spane>&#128231</spane>  omcoolcare2020@gmail.com
+                    </h5>
+                  </div>
+                </div>
+                <!--company name-->
+                <div class="companyName">
+                  <div>
+                    <p style="margin-top: 10px;">
+                      <b>Customer Name :</b>
+                      <span id="customerName">Deepak Tingare</span>
+                      <br />
+                     <b>Address :</b>
+                      <span id="customerAddress">Pune</span>
+                      <br />
+                      <b>Contact No:</b>
+                      <span id="customerPhone">+91 8308152131</span>
+                    </p>
+                  </div>
+                </div>
+          
+                <!--company name end-->
+                <!--table-->
+               <form style="border: black; align-items: center;">
+                <div class="table">
+                
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>Sr.No</th>
+                        <th>Description</th>
+                        <th>Quantity</th>
+                        <th>Rate</th>
+                        <th>Per</th>
+                        <th>Disc. %</th>
+                        <th>Amount</th>
+                      </tr>
+                    </thead>
+                    <tbody id="tableBody"> 
+                      <tr>
+                        <td>1</td>
+                        <td>
+                          <h4>-------------------</h4>
+                          <p>-------------------</p>
+                          <p>-------------------</p>
+                        </td>
+                        <td>1</td>
+                        <td>100</td>
+                        <td>100000</td>
+                        <td>0</td>
+                        <td>
+                          <span style="font-weight: bold; font-size: 20px">100000</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>2</td>
+                        <td>
+                          <h4>-------------------</h4>
+                          <p>-------------------</p>
+                          <p>-------------------</p>
+                        </td>
+                        <td>1</td>
+                        <td>100</td>
+                        <td>100</td>
+                        <td>0</td>
+                        <td>
+                          <span style="font-weight: bold; font-size: 20px">1000</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>3</td>
+                        <td>
+                          <h4>------------------</h4>
+                          <p>-------------------</p>
+                          <p>-------------------</p>
+                        </td>
+                        <td>1</td>
+                        <td>100</td>
+                        <td>100</td>
+                        <td>0</td>
+                        <td>
+                          <span style="font-weight: bold; font-size: 20px">1000</span>
+                        </td>
+                      </tr>
+                      <!--total footer-->
+                      <tr class="total-footer">
+                        <td colspan="6"style="text-align: right; font-weight: bold; font-size: 22px">
+                          Total
+                        </td>
+                        <td id="total" style="font-weight: bold; font-size: 22px">100</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+            </form>
+                <!--table end-->
+                <!--footer-->
+                <div class="footer">
+                  <div>
+                    <p>
+                      Amount chargeable (in words) <br />
+                      <span
+                        id="amount-in-words"
+                        style="font-weight: bold; font-size: 20px"
+                        >One thousand taka only</span>
+                    </p>
+                  </div>
+                  <div class="footer-bottom">
+                    <div class="declaration">
+                      <p>
+                        <span style="font-size: large; font-weight: bold">
+                          Declaration:</span
+                        >
+                        <br />
+          
+                        We declare that this invoice shows the actual price of the goods
+                        described and that all particulars are true and correct.
+                      </p>
+                    </div>
+                    <div>
+                      <p style="margin-bottom: 20px">For Om Cool Care</p>
+                      <p>..................................</p>
+                      <p>Authorized Signatory</p>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <p style="text-decoration: underline;text-align: center;margin-top: 10px;">
+                    This is a computer generated invoice and does not require any signature.
+                  </p>
+                </div>
+                <!--footer end-->
+              </main>
+        </tb>
+      </form>
+  </body>
+</html>
